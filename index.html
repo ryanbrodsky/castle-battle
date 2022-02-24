@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="status-bar">
+        <h1>CASTLE BATTLE</h1>
+        <p>Your castle currently has <span id="your-hit-points">10</span> hit points left.</p>
+        <p>The enemy's castle has <span id="enemy-hit-point">10</span> hit points left.</p>
+        <h2>Status of your peons:</h2>
+        <ul id="peon-list">
+
+        </ul>
+    </header>
+    <main>
+        <section id="user-choice-console">
+            <div id="initial-choice">
+                <button id="choose-create-peon">Create a peon</button>
+                <button id="choose-assign-peon">Assign a peon a task</button>
+            </div>
+            <div id="peon-nursery">
+                <h1>I have stuff</h1>
+                <form id="peon-creation-form">
+                    <input type="text" id="new-peon-name">
+                    <button type="submit">Birth this new peon</button>
+                </form>
+            </div>
+            <div id="peon-assignment-div">
+                <ul id="peon-assignment-list">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
